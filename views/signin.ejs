@@ -1,0 +1,34 @@
+<%- include('partials/header') %>
+    <header class="showcase">
+            <div class="logo">
+            </div>
+            <div class="showcase-content">
+                <div class="formm">
+                    <form action="/signin" method="post">
+                        <h1>Sign In</h1>
+                        <div class="info">
+                            <input class="email" name="username" type="email" placeholder="Email or phone number"> <br>
+                            <input class="email" name="password" type="password" placeholder="Password">
+                        </div>
+                        <div class="btn">
+                            <button class="btn-primary" type="submit">Sign In</button>
+                        </div>
+                        <div class="help">
+                            <div>
+                                <input value="true" type="checkbox"><label>Remember me</label>
+                            </div>
+                        </div>
+
+                    </form>
+
+                </div>
+                <div class="signup">
+                    <a href="/">Sign up now</a>
+                </div>
+                <div class="more">
+
+                </div>
+
+
+            </div>
+<%- include('partials/footer') %>
